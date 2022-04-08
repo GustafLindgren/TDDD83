@@ -1,0 +1,194 @@
+/*Home-page*/
+#home-wrap {
+  width: 100%;
+  margin: auto;
+  padding-top: 20px;
+  place-items: center;
+  text-align: center;
+}
+
+/*CSS for carousel */
+/*Center row*/
+.image-row {
+  margin: auto;
+}
+
+/*CSS for the translucent caption-background*/
+.caption-background {
+  background: rgba(0,0,0,0.5); 
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+/*Images appear right next to eachother*/
+.home-image {
+  padding: 0px;
+}
+
+/*Text-settings for the description of pictures in carousel*/
+#image-home-description {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+/*Margin and centering for carousel*/
+#carousel-home {
+  margin: auto;
+  place-items: center;
+  margin-top: 2%;
+}
+
+/*Middle info-banner*/
+/*Sizing of the blurbs in the banner*/
+#home-info {
+  width: 80%;
+}
+
+/* Title for banner with appropriate margins added in*/
+#home-center-text {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+/*The background for the banner*/
+#home-background-info {
+  background-color: #236477;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+/*Center each row in the banner with info*/
+.home-banner-row {
+  margin: auto;
+}
+
+/*Text settings for the info in the info-banner*/
+.home-banner-text {
+  color: #F2F3F7;
+  font-size: 25px;
+}
+
+/*Margin centering for the columns of info in the info-banner*/
+.home-banner-col {
+  margin: auto;
+}
+
+/*Text settings for margins and alignments in the info-banner*/
+.home-banner-col-text {
+  display: flex;
+  margin: auto;
+  align-items: flex-start;
+}
+
+/*Color and margins for the info-banner icons*/
+.home-banner-image {
+  color: #F2F3F7;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+/*Triangles to make the banner look on an angle*/
+/*Using gradiant to create a triangle with a smooth transitions*/
+.home-bot-triangle {
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(to top left, #FBFBFB 0%, #FBFBFB 49.75%, #236477 50.40%, #236477 100%);
+  margin-bottom: 200px;
+}
+
+.home-top-triangle {
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(to bottom right, #FBFBFB 0%, #FBFBFB 49.75%, #236477 50.40%, #236477 100%);
+}
+
+/*Portfolio info-blurb*/
+/*Flex column for margins centering*/
+.home-portfolio-info-col {
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  align-items: center;
+}
+
+/*Div for margin to bottom*/
+#home-portfolio-info {
+  margin-bottom: 200px;
+}
+
+/*Aligning the text in the info-blurb*/
+.home-portfolio-text {
+  text-align: left;
+  float: left;
+  margin-left: 5%;
+}
+
+/*Aligning the icon in the info-blurb*/
+.home-briefcase-icon {
+  font-size: 15em;
+  margin-right:5%;
+  float: left;
+}
+
+/*Headline font-sizing*/
+#home-portfolio-headline {
+  font-size: 30px;
+}
+
+/*Info-text font-sizing*/
+#home-portfolio-info-text {
+  font-size: 22px;
+}
+
+/*Home contact info-blurb*/
+/*Div for margins, paddings and backgrounds for contact info-blurb*/
+#home-contact-info {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  background-color: #236477;
+}
+
+/*Color and alignments of the icon*/
+.home-comment-icon {
+  color: #F2F3F7;
+  font-size: 15em;
+  margin-left:5%;
+  float: right;
+}
+
+/*Headline font-sizing*/
+#home-contact-headline {
+  font-size: 30px;
+  color: #F2F3F7;
+}
+
+/*Info-text font-sizing*/
+#home-contact-info-text {
+  font-size: 22px;
+  color: #F2F3F7;
+}
+
+/*Alignment of the text in the info-blurb*/
+.home-contact-text {
+  text-align: left;
+  float: left;
+  margin-right: 5%;
+}
+
+/*Link formating css*/
+.home-link {
+  text-align: center;
+  font-size: 22px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 0px;
+  color: #F2F3F7;
+}

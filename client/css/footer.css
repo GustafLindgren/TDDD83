@@ -1,0 +1,48 @@
+/*Footer*/
+.footer {
+  background-color: #173042;
+  padding: 20px 0 10px;
+  font-size: 13px;
+  line-height: 20px;
+  position: relative;
+  color: #F2F3F7;
+  bottom: 0;
+  width: 100%;
+  display: block;
+  clear: both;
+}
+/* Headings in footer */
+  .footer h6 {
+    color: #F2F3F7;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 1px
+  } 
+  
+/* ul for links in footer */
+.footer-links {
+  padding-left: 0;
+  list-style: none
+}
+/* Each link in footer*/
+  .footer-links a {
+    color: #F2F3F7;
+    font-size: 13px;
+    line-height: 20px;
+  }
+    .footer-links a:active,
+    .footer-links a:focus,
+    .footer-links a:hover {
+      color: #F2F3F7;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+/*The copyright text*/
+.copyright-text {
+  color: #F2F3F7;
+  font-size: 12px;
+  text-align: center;
+  margin: 0
+}

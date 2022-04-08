@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* whole form */
+.org-regform {
+  width: 800px;
+  margin: auto;
+  color: #000055;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+}
+
+form {
+  padding: 30px;
+}
+/* placement for rows and cols in form */
+.header-register {
+  display: inline-block;
+}
+/* style for all the rows in register */
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+/* Style for headline name */
+#name {
+  margin-left: 25px;
+  width: 100%;
+  height: 80px;
+  color: #000055;
+  font-size: 36px;
+  font-weight: 700;
+}
+/* Style for input name */
+.org-name {
+  position: relative;
+  left: 145px;
+  width: 520px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #929ECC;
+}
+/* Style headline for Hemsida/Logo */
+#url-div {
+  margin-left: 25px;
+  width: 100%;
+  color: #000055;
+  height: 80px;
+  font-size: 36px;
+  font-weight: 700;
+}
+/* Style and position for input url to website  */
+.org-url {
+  position: relative;
+  left: 28px;
+  width: 240px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #929ECC;
+}
+/* Style and position for input url to logo  */
+.org-logo {
+  position: relative;
+  left: 68px;
+  width: 240px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #929ECC;
+}
+/* Style headline for info about organisation*/
+#org-info {
+  margin-left: 25px;
+  width: 100%;
+  color: #000055;
+  height: 80px;
+  font-size: 36px;
+  font-weight: 700;
+}
+/* Style and position for short info about org  */
+.org-info-short {
+  position: relative;
+  left: 19px;
+  width: 400px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #929ECC;
+}
+/* Style and position for long info about org  */
+#org-info-long {
+  position: relative;
+  left: 0px;
+  top: 20px;
+  width: 800px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #929ECC;
+  width: 100%;
+  margin-right: 46px;
+}
+/* placement for radiobuttons to choose category */
+#category {
+  padding-top: 150px;
+  position: relative;
+  left: 80px;
+}
+
+/*Button and link layout */
+#org-buttons {
+  text-align: center;
+}
+
+
+input[type=submit], input[type=reset] {
+  background-color: #4a6c2f;
+  color: #F2F3F7;
+  border: none;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  padding: 8px; 
+}
+
+#register-org-submit:hover, #reset_formula:hover {
+  color: #F2F3F7;
+  background-color: #63923c;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#register-org-link {
+  display: none;
+}

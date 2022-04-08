@@ -1,0 +1,92 @@
+/*
+*   Header design
+*/
+#portfolio-header {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/*
+*   Main container
+*/
+#port-container {
+  height: 100%;
+  width: 80% !important;
+  margin: auto;
+}
+
+/*
+*   Short info box
+*/
+#port-info { 
+  margin-bottom: 25px;
+  font-size: 15px;
+  background-color: #cfdfda;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.card-margin {
+  margin-bottom: 30px;
+}
+
+/*
+*   Size of the logo on the organisation cards
+*/
+.img-div-orgs {
+  height: 110px;
+}
+
+.card-image-orgs {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  max-width: 40%;
+  height: auto;
+  max-height: 60%;
+}
+
+/*
+*   Open/close card button 
+*/
+.collapse-button {
+  color: #173042;
+  float: left;
+  padding-left: 0;
+}
+.collapse-button:focus {
+  box-shadow: none;
+}
+
+/*
+*   Add portfolio button
+*/
+.donate-to-port {
+  color: #FBFBFD;
+  background-color: #4a6c2f;
+}
+
+.donate-to-port:hover {
+  background-color: #63923c !important;
+  color: #FBFBFD;
+}
+
+button.btn.btn-default.donate-to-port {
+  border: 0.2em solid
+}
+
+button.btn.btn-default.donate-to-port:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+

@@ -1,0 +1,343 @@
+/* Container for the entire page */
+#org-container {
+  height: 100%;
+  width: 80% !important;
+  margin: auto;
+}
+
+#list-container {
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+}
+
+.instruction {
+  vertical-align: middle;
+}
+
+/* List of instructions at the top */
+#org-instructions {
+  background-color: #FFFACD;
+  display: block;
+  padding: 20px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  width: 80%;
+  text-align: center;
+}
+
+#instruction-link {
+  color: #856404;
+}
+
+#org-inst {
+  width: 100%;
+  margin-left: 0px;
+}
+
+#close-org-instructions {
+  color: #856404;
+  padding: 0 10px;
+}
+
+/* Contains "Organisationer" */
+#org-header {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Container for the filters */
+#filter-div {
+  background-color: #cfdfda;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 20px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Hides the checkboxes */
+.filter-checkbox {
+  display: none;
+}
+
+/* Filters ordered in a row instead of a column */
+.filter-order {
+  display: inline;
+}
+
+/* Contains name of filter */
+.filter-label {
+  font-size: 16px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  user-select: none;
+}
+
+  .filter-label:hover {
+    cursor: pointer;
+    color: #FBFBFD;
+    background-color: #438092;
+  }
+
+/* Name of the filter when active */
+.filter-label-active {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  user-select: none;
+  font-size: 16px;
+  color: #FBFBFD;
+  background-color: #236477;
+  cursor: pointer;
+}
+
+  .filter-label-active:hover {
+    background-color: #438092 !important;
+  }
+
+/* Activates all filters */
+.show-all-filters {
+  font-size: 16px;
+  display: inline;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  user-select: none;
+  background-color: #cfdfda;
+  border: none;
+  color: #173042;
+  outline: none;
+}
+
+  .show-all-filters:hover {
+    color: #FBFBFD;
+    background-color: #438092;
+  }
+
+  .show-all-filters:focus {
+    outline: none;
+  }
+
+/* All filters when activated */
+.show-all-filters-active {
+  font-size: 16px;
+  display: inline;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  user-select: none;
+  border: none;
+  color: #FBFBFD !important;
+  background-color: #236477 !important;
+  outline: none;
+}
+
+  .show-all-filters-active:hover {
+    background-color: #438092 !important;
+  }
+
+  .show-all-filters-active:focus {
+    outline: none;
+  }
+
+/* List of currently chosen filters */
+#current-filter-div {
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+/* One such filter */
+.active-filter {
+  margin-right: 25px;
+  display: none;
+}
+
+
+
+/*      Organisation cards     */
+
+/* Background for a organisation card */
+.card-background {
+  background-color: #fbfbfd !important;
+  background-repeat: no-repeat;
+  margin-bottom: 15px;
+}
+
+/* The body of the card */
+.card-body {
+  display: block;
+  padding-right: 0;
+  
+}
+
+/* Container for the organisation logo */
+.card-image-div {
+  height: 150px;
+}
+
+/* The organisation logo */
+.card-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  height: auto;
+  max-height: 80%;
+}
+
+/* URL to the organisation website */
+.card-url {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  -ms-transform: translate(-50%, -90%);
+  transform: translate(-50%, -90%);
+}
+
+/* Container for the middle information */
+.card-text-org {
+  display: block;
+  color: #173042;
+}
+
+/* The name of the organisation */
+.card-header {
+  background-color: #FBFBFD;
+  border: none;
+  padding-left: 0;
+}
+
+/* Long information about the organisation */
+.card-long-info {
+  padding-left: 25px;
+}
+
+/* Contains the right hand buttons */
+.card-buttons-div {
+  display: block;
+  text-align: right;
+}
+
+/* Open/close card button */
+.collapse-button {
+  color: #173042;
+  float: left;
+  padding-left: 0;
+}
+.collapse-button:focus {
+  box-shadow: none;
+}
+
+
+/* Add to cart button */
+.donate-to {
+  color: #FBFBFD;
+  background-color: #4a6c2f;
+}
+
+  .donate-to:hover {
+    background-color: #63923c !important;
+    color: #FBFBFD;
+  }
+
+/* Remove from cart button */
+
+
+  button.btn.btn-default.donate-to:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+
+
+
+
+/*      Hidden elements      */
+
+/* Spinning loader when loading organisations */
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 2s linear infinite;
+  margin-left: 50%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* Loader animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Position of scroll to the top button */
+#scroll-button {
+  position: fixed;
+  bottom: 26px;
+  right: 25px;
+  z-index: 98;
+}
+
+/* Color of the button */
+.scroll {
+  color: #FBFBFD;
+  background-color: #236477;
+}
+
+  .scroll:hover {
+    background-color: #438092 !important;
+    color: #FBFBFD;
+  }
+
+/* Pagination numbers color */
+.pagination > li > a {
+    background-color: #FBFBFD;
+    color: #236477;
+}
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+    background-color: #FBFBFD;
+    color: #438092;
+}
+
+/* Current page number color */
+.pagination > .active > a {
+    color: #FBFBFD;
+    background-color: #236477 !important;
+    border: solid 1px #236477 !important;
+}
+.pagination > .active > a:hover {
+  background-color: #438092 !important;
+  border: solid 1px #438092  !important;
+}
+
+/* No bordershadow when clicking on another page */
+.page-link:focus {
+  box-shadow: 0 0 0 0.2rem transparent;
+}

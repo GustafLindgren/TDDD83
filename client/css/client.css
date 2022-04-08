@@ -1,0 +1,98 @@
+/* Imports */
+@import "donation.css";
+@import "register.css";
+@import "faq.css";
+@import "account.css";
+@import "registerOrg.css";
+@import "contact.css";
+@import "organisations.css";
+@import "footer.css";
+@import "header.css";
+@import "home.css";
+@import "about.css";
+@import "header.css";
+@import "portfolio.css";
+
+/* Standard settings for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Standard settings for every element in the html-document */
+html,
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #024959;
+    background-color: #FBFBFB;
+}
+
+/* Login */
+#login-toggle {
+    cursor: pointer;
+}
+
+#login {
+    background-color: #F2F3F7;
+}
+
+/* Middle container */
+#main-container {
+    min-height: 76%;
+}
+
+/* Primary button design */
+.btn-primary,
+.btn-primary:focus {
+  background-color: #4a6c2f;
+  color: #F2F3F7;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Secondary button design */
+.btn-secondary,
+.btn-secondary:focus {
+  background-color: #4a6c2f;
+  color: #F2F3F7;
+  border: none;
+  letter-spacing: 1px;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-secondary:hover,
+.btn-secondary:active {
+  color: #F2F3F7 !important;
+  background-color: #63923c !important;
+  text-decoration: none;
+  border-color: transparent !important;
+}
+
+.btn-primary:focus,
+.btn-secondary:focus{
+  box-shadow: 0 0 0 0.2rem transparent !important;
+}
+
+/* Font-family: Roboto
+   Text ska främst vara: #37447E (mörkblå)
+   Donera-knapp: #111B47 (mörkare blå)
+   Logga in-knapp/text i footer: #929ECC (ljusare blå)
+   Doneramera copyright: #BAC3E5
+   För att visa var vi är i navbar/visa hur sidan funkar: #CED3E8
+   bakgrund navbar: #FBFBFD (ljusgrå)
+   
+   New colours:
+   Text ska främst vara: #173042 (mörkblå)
+   Donera/Logga in-knapp: #4a6c2f (mörkgrön)
+   Donera/Logga in-knapp-hover: #4a6c2f (lite ljusare mörkgrön)
+   text i footer: #F2F3F7((i princip vit)
+   Doneramera copyright: #F2F3F7
+   Filter bakgrund: #cfdfda
+   Filter-active: #236477
+   filter-hover: #438092 
+   bakgrund navbar/body: #FBFBFB (nästan vit)
+   bakgrund vilka är vi: #236477
+   Annan grön att välja: #7cad3e */

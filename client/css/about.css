@@ -1,0 +1,81 @@
+/* CSS for about.html*/
+
+/*The image at the top of the page*/
+#about-us-top-img {
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+/*Header text on the page*/
+.about-us-h3 {
+  text-align: center;
+  padding-top: 20px;
+ 
+}
+
+/*The main text about DoneraMera*/
+#about-us-text {
+  width: 70%;
+  margin: auto;
+  padding: 4%;
+  text-align: center;
+}
+
+/*The links in the main text*/
+.about-link {
+  color: #007bff !important;
+  cursor: pointer; 
+}
+
+.about-link:hover {
+  color: #173042 !important;
+  text-decoration: underline !important;
+}
+
+/*Div with the members of the group*/
+.who-are-we {
+  background-color: #236477  ;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*H3 that had different color than the rest of the page*/
+#who-are-we {
+  color: #FBFBFB; 
+}
+
+/*The set up of the cards with the members of the group*/
+.card-deck {
+  width: 75%;
+  margin: auto;
+  padding: 15px;
+}
+
+/*The text inside of the cards about the members*/
+.card-text {
+  color: #236477 !important;
+}
+
+/*Text-settings for responsibility for each team-member*/
+.about-responsibility {
+  font-weight: bold;
+}
+
+/*Adds right-padding for the about-us cards*/
+.card-body {
+  padding-right: 20px;
+}
+
+/*
+.card-img-overlay {
+  width: 85%;
+  margin: auto;
+  
+#about-us-who {
+  width: 75%;
+  margin: auto;
+}
+
+}*/
+

@@ -1,0 +1,132 @@
+/*Header*/
+.navbar {
+  background-color:  #FBFBFB !important;
+}
+
+/* All items in header */
+.nav-item {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+/* Links in header */
+.nav-link {
+  color: #173042; /*!important overrides nav-link default value*/
+  font-size: 16px; 
+}
+
+/* Active links in header */
+.site-active {
+  color: #173042;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+/* Hovered links in header */
+.nav-item a:hover {
+  color: #173042;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Dropdown*/
+.dropdown {
+  position: relative;
+}
+
+/* Dropdown menu size, design and scrollable */
+.dropdown-menu-lg-right {
+  min-width:250px;
+  padding: 2px;
+  margin: 7px;
+	width:350px !important;
+	box-shadow:0px 5px 30px black;   
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+/* Dropdown-button when dropdown is open */
+.show>.btn-secondary.dropdown-toggle {
+  color: #F2F3F7 !important;
+  background-color: #63923c !important;
+  text-decoration: none;
+  border-color: transparent !important;
+}
+
+/* Heading in dropdown menu */
+#dropdown-heading {
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-top: 5px; 
+  padding-bottom: 5px;
+  color: #173042;
+}
+
+/*ul with orgs in portfolio listed or message if no orgs */
+.dropdown-portfolio-orgs {
+  padding-left: 0;
+  list-style: none
+}
+
+/* Message if no organisations in portfolio */
+#no-orgs-message {
+  font-size: 1em;
+  padding-top: 5px; 
+  padding-bottom: 5px;
+  color: #173042;
+}
+
+/* List object presenting org in portfolio*/
+.dropdown-list-org {
+  margin: 5px;
+  padding: 5px;
+  height: 100px;
+  enable-background: new;
+  background-color: white;
+  border: 1px solid #eef1f3;
+  border-radius: 10px;
+}
+
+/* Row with logo and remove button covers whole dropdown width */
+#org-row {
+  width: 100%;
+  margin-left: 0px;
+}
+
+/* Column for organisations logo in dropdown */
+.logo-col-dropdown {
+  height: 100px;
+  line-height: 100px;
+  white-space: nowrap;
+}
+
+/* Organisations logo in dropdown */
+.org-logo-dropdown {
+  max-height: 80px;
+  max-width: 200px;
+  padding-left: 5%; 
+}
+
+/* Column for removebutton in dropdown */
+.remove-col {
+  height: 100px;
+  line-height: 100px;
+  white-space: nowrap;
+}
+
+/* Div for go to current portfolio/payment button sticks in botttom of dropdown, always shown*/
+.sticky-div {
+  margin-top: 10px; 
+  padding-bottom: 10px;
+  position: sticky;
+  bottom: 0px;
+  background-color: white;
+}
+
+
+

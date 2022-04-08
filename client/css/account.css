@@ -1,0 +1,210 @@
+/* first part of page */
+#account-page {
+  margin: 50px auto;
+  width: 80%;
+}
+
+.hbox {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.vbox {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+}
+
+/* Profile picture */
+#profile-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 80px 80px 80px 80px;
+  margin: 20px;
+  align-self: center;
+}
+
+/*container for profile picture */
+#current-profile-picture-div {
+  margin: 20px;
+  margin-bottom: 60px;
+  margin-top: -10px;
+  text-align:center;
+}
+/* for img*/
+#current-profile-picture {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+/* Name and email */
+#account-info {
+  margin: 20px;
+  align-self: center;
+  list-style: none;
+}
+
+/* Either name or email */
+.account-info-item {
+  margin: 8px;
+}
+
+.account-item {
+  margin-bottom: 0;
+}
+
+/* Div with a list of buttons */
+#account-button-panel {
+  margin: 20px;
+  align-self: center;
+}
+
+/* The list of buttons for the account */
+#account-button-list {
+  list-style-type: none;
+}
+
+/* Either change password or log out */
+.account-button {
+  margin: 20px;
+  width: 160px;
+}
+
+/* Error-messages in "Ändra lösenord" and "Ändra uppgifter" */
+#password-message1, #password-message2, #current-password-message,
+  #first-name-message2, #last-name-message2, #current-password-message2  {
+  margin-left: 15px;
+  line-height: 20px;
+  font-size: 16px;
+  color: rgb(255, 0, 0);
+}
+
+/* Current cart, see big yellow square */
+#current-cart {
+  /* position: relative;  */
+  width: 50%; 
+  border: solid 1px;
+  background-color: #FFFACD;
+  padding: 25px;
+  float: right;
+}
+
+/* List on current orgs, in yellow square */
+#current-org-list {
+  margin-left: 10px;
+  margin-top: 40px;
+}
+
+/* Container for "Till kassan" */
+.current-cart-btn-container {
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+#account-donation-link {
+  position: relative;
+  float: right;
+}
+
+/*Container for current organisations in cart*/
+.current-cart-org-container {
+  margin: 0;
+  padding: 0;
+}
+
+/*Container for close button*/
+.current-cart-close-container {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+/* Heading for current cart */
+#current-cart-header {
+  padding-left: 15px;
+}
+
+/*Divs for the receipt-list and header*/
+#history-div{
+background-color: #236477;
+padding-bottom: 20px;
+
+}
+
+#history-center {
+  width: 60%;
+  margin: auto;
+}
+
+/* The header for the donation history */
+#donation-history {
+  color: #FBFBFB;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+/* Whole list of receipts */
+#list-receipts {
+  list-style-type: none;
+}
+
+/* One of the receipts */
+.receipt-card {
+  margin-top: 20px;
+  border: solid 1px;
+  padding: 30px;
+  background-color: #FBFBFB;
+}
+
+/* The part of the card that is aligned to the right */
+.right-align-receipt {
+  position: absolute;
+  right: 20px;
+  margin-right: 0;
+}
+
+/* The aligned right part if expanded */
+.expand-right-align-receipt {
+  min-width: 233px;
+}
+
+/* The aliged right part if not expanded */
+.small-right-align-receipt {
+  min-width: 400px;
+}
+
+/* The button that expands a receipt */
+.arrow-button {
+  width: 20px;
+  position: absolute;
+  right: 0;
+}
+/* CSS for when no receipt*/
+#empty-receipts {
+ color: #FBFBFB;
+}
+
+#empty-receipt-link {
+  font-weight: bold;
+  color: #FBFBFB;
+}
+
+#empty-receipt-link:hover {
+  text-decoration: underline;
+}
+

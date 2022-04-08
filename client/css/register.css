@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*Whole page text center */
+.main-reg {
+  text-align: center;
+}
+/*Headline */
+.regform {
+  width: 800px;
+  margin: auto;
+  color: #111B47;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+  margin-top: 30px;
+}
+/* Form to enter vales for account and register button, or to log in */
+.main-register {
+  width: 800px;
+  margin: auto;
+  border-radius: 0px 0px 15px 15px;
+  margin-top: 40px;
+}
+
+
+/* all rows for entering values */
+.header-register {
+  display: inline-block;
+}
+
+/* rows for where values are enter */
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+/* col for message if first name is not entered */
+.col1 {
+  width: 450px;
+}
+
+/* col for message if last name is not entered */
+.col2 {
+  width: 250px;
+}
+
+/* for entering first name */
+.first-name {
+  position: relative;
+  left: 140px;
+  width: 240px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #929ECC;
+}
+/* for entering last name */
+.last-name {
+  position: relative;
+  left: 160px;
+  width: 240px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #929ECC;
+}
+/* Message if first name is empty */
+#first-name-message {
+  position: relative;
+  left: -10px;
+  top: 2px;
+  line-height: 20px;
+  vertical-align: top;
+  padding: 0;
+  font-size: 16px;
+  color: rgb(255, 0, 0);
+}
+/* Message if last name is empty */
+#last-name-message {
+  position: relative;
+  left: -95px;
+  top: 2px;
+  line-height: 20px;
+  vertical-align: top;
+  padding: 0;
+  font-size: 16px;
+  color: rgb(255, 0, 0);
+}
+/* placement for entering email */
+#email-div {
+  margin-left: 25px;
+  width: 100%;
+  color: #FBFBFD;
+  height: 80px;
+  font-size: 36px;
+  font-weight: 700;
+}
+/* space for entering email */
+.email {
+  position: relative;
+  left: 140px;
+  width: 500px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #929ECC;
+}
+/* message if invalid email */
+#email-message {
+  position: relative;
+  left: -36px;
+  top: 0px;
+  line-height: 20px;
+  width: 480px;
+  border-radius: 6px;
+  padding: 0;
+  font-size: 16px;
+  color: rgb(255, 0, 0);
+}
+/* Password placement */
+#password {
+  margin-left: 72px;
+  width: 100%;
+  color: #FBFBFD;
+  height: 80px;
+  font-size: 36px;
+  font-weight: 700;
+}
+/* Password placement for first pw */
+.password1 {
+  position: relative;
+  left: 92px;
+  width: 240px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #929ECC;
+}
+/* Password placement for second pw */
+.password2 {
+  position: relative;
+  left: 113px;
+  width: 240px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #929ECC;
+}
+/* Message if pw is wrong */
+#password-message {
+  position: relative;
+  left: 94px;
+  top: 4px;
+  line-height: 20px;
+  border-radius: 6px;
+  padding: 0;
+  font-size: 16px;
+  color: rgb(255, 0, 0);
+}
+/* Color on message if failed login */
+#failed-login-message {
+  color: red;
+}
+/* button functions and size for text for the bottom part of the page */
+#buttons {
+  text-align: center;
+}
+
+input[type=submit], input[type=reset] {
+  background-color: #FBFBFD;
+  color: #111B47;
+  text-align: center;
+  padding: 0px 10px;
+  border-radius: 12px;
+  margin: 10px 2px 20px;
+  cursor: pointer;
+  
+}
+
+#register-submit:hover, #reset-formula:hover {
+  background-color: #63923c;
+}
+
+#bottom-text { 
+  margin-top: 15px; 
+
+}
+#bottom-text2 {
+  margin-top: 30px; 
+  font-size: 20px;
+}
+
+
+.login-button-register {
+  color: #BAC3E5;
+  font-size: 25px;
+  line-height: 20px;
+  list-style: none
+}
+
+.btn-link.login-button-register:hover {
+  color: #718ff1;
+}
+.btn-link.terms-button-register:hover {
+  color: #718ff1;
+}

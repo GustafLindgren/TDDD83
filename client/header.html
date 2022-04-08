@@ -1,0 +1,99 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+  <a href="#" class="site-link" data-site="sites/home.html">
+    <img src="images/donera_mera_logo.png" alt="doneramera logo"
+         width="245" height="40" />
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a id="home-link" class="nav-link site-link site-active" data-site="sites/home.html" href="#">Hem <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a id="org-link" class="nav-link site-link" data-site="sites/organisations.html" href="#">Organisationer</a>
+      </li>
+      <li class="nav-item">
+        <a id="portfolio-header-link" class="nav-link site-link" data-site="sites/portfolio.html" href="#">Portföljer</a>
+      </li>
+      <li class="nav-item">
+        <a id="about-link" class="nav-link site-link" data-site="sites/about.html" href="#">Om oss</a>
+      </li>
+      <li class="nav-item">
+        <a id="account-link" class="nav-link site-link" data-site="sites/account.html" href="#">Mitt konto</a>
+      </li>
+      <li class="nav-item">
+        <a id="register-org-link" class="nav-link site-link" data-site="sites/registerOrg.html" href="#">Lägg till organisation</a>
+      </li>
+
+      <!--Log in/Log out button-->
+      <li class="nav-item">
+        <button id="logout" type="button" class="btn btn-secondary mr-auto">
+          Logga ut
+        </button>
+
+        <button id="show-login" type="button" class="btn btn-secondary mr-auto" data-toggle="modal"
+                data-target="#loginModal">
+          Logga in
+        </button>
+        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+             aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="loginModalLabel">Logga in</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <!--Log in form-->
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">E-postadress</label>
+                    <input type="email" class="form-control" id="inputEmailLogin" aria-describedby="emailHelp"
+                           placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Lösenord</label>
+                    <input type="password" class="form-control" id="inputPasswordLogin" placeholder="">
+                  </div>
+                  <div id="failed-login-message">Felaktigt användarnamn och/eller lösenord</div>
+                  <a href="#" class="site-link" data-site="sites/register.html" data-dismiss="modal">Saknar konto? Bli medlem!</a>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary btn-lg mx-auto login-button">Logga in</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+
+<!-- Dropdown menu showing orgs in portfolio -->
+      <li class="nav-item">
+        <div class="dropdown" id="my-dropdown">
+          <b class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdown-menu-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-shopping-cart"></i>
+            Kassa
+          </b>
+          <div class="dropdown-menu dropdown-menu-lg-right" aria-labelledby="dropdown-menu-link" id="dropdown-cart">
+            <p id="dropdown-heading">Din portfölj</p>
+            <div class="dropdown-dropdown-portfolio-orgs">
+              <ul class="dropdown-portfolio-orgs"></ul>
+            </div>
+            <div class="sticky-div">
+              <div class="dropdown-divider"></div>
+              <div class="col-lg-12 col-sm-12 col-12 text-center div-checkout">
+              <b class="btn btn-secondary site-link" data-site="sites/donation.html" id="portfolio-button" href="#" role="button">Gå vidare till betalning</b>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </li>
+    </ul>
+  </div>
+</nav>

@@ -1,0 +1,23 @@
+/* CSS code for the FAQ page*/
+
+/* Design of the whole page */
+#faq-container {
+  overflow: auto;
+  text-align: center;
+  display: block;
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+/* Category and question design */
+.category {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.question {
+  margin-top: 1px;
+}
+
+
